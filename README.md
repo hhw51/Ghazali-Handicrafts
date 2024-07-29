@@ -79,3 +79,29 @@ Ghazali Handicrafts is an advanced e-commerce platform designed to provide a sea
    ```bash
    git clone https://github.com/hhw51/Ghazali-Handicrafts.git
    cd Ghazali-Handicrafts
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3. Set up environment variables:
+Create a .env file in the root directory and add the following:
+
+   ```bash
+   MONGO_URI=<your-mongodb-uri>
+   CLOUD_NAME=<your-cloudinary-cloud-name>
+   CLOUD_API_KEY=<your-cloudinary-api-key>
+   CLOUD_API_SECRET=<your-cloudinary-api-secret>
+   FIREBASE_API_KEY=<your-firebase-api-key>
+   FIREBASE_AUTH_DOMAIN=<your-firebase-auth-domain>
+   FIREBASE_PROJECT_ID=<your-firebase-project-id>
+   FIREBASE_STORAGE_BUCKET=<your-firebase-storage-bucket>
+   FIREBASE_MESSAGING_SENDER_ID=<your-firebase-messaging-sender-id>
+   FIREBASE_APP_ID=<your-firebase-app-id>
+   BSECURE_API_KEY=<your-bsecure-api-key>
+   REDIS_URI=<your-redis-uri>
+
+4. Run the application
+   ```bash
+   npm run dev
